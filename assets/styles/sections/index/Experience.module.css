@@ -1,0 +1,149 @@
+.container {
+    width: 80%;
+    max-width: 1300px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.companyLists {
+    list-style: none;
+    display: block;
+    display: flex;
+    flex-direction: row;
+}
+
+.companyLists li {
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-bottom: 1px solid var(--subtitle);
+    transition: var(--smooth-animation);
+}
+
+.companyLists li:hover {
+    background-color: var(--light-background);
+    border-color: var(--primary);
+}
+
+.experienceContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.experienceBullet {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.experienceDate {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+.companyTitle {
+    font-size: 1.25rem;
+}
+
+.technologies {
+    font-size: 1rem;
+    margin-top: 1.2rem;
+}
+
+.technologyIcon {
+    font-size: 3rem;
+    transition: var(--smooth-animation);
+    display: block;
+}
+
+.technologiesContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.technologyIcon:hover {
+    color: var(--secondary);
+}
+
+.companyLists .activeExperience {
+    border-color: var(--primary);
+}
+
+@media only screen and (min-width: 800px) {
+    .container {
+        width: 73%;
+        padding: 4rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .container {
+        width: 73%;
+        padding: 4rem;
+    }
+
+    .experienceContainer {
+        flex-direction: row;
+    }
+
+    .rightContainer {
+        padding: 1rem;
+    }
+
+    .companyLists {
+        flex-direction: column;
+    }
+
+    .companyLists {
+        flex-direction: column;
+    }
+
+    .companyLists li {
+        border-right: 1px solid var(--subtitle);
+        border-bottom: none;
+    }
+
+    .experienceDate {
+        font-size: 1rem;
+        font-weight: 300;
+        margin: 1rem 0;
+    }
+
+    .companyTitle {
+        font-size: 0.9rem;
+    }
+
+    .technologies {
+        font-size: 1rem;
+        margin-top: 1.2rem;
+    }
+
+    .technologyIcon {
+        font-size: 2.5rem;
+    }
+
+    .experienceBullet li {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 70%;
+        padding: 5rem;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .container {
+        width: 60%;
+    }
+}

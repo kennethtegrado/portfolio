@@ -1,0 +1,20 @@
+{
+    "WEBSITE_TITLE": "Kenneth Tegrado - Full Stack Developer Portfolio",
+    "SHORT_PROFILE": {
+        "FULL_NAME": "Kenneth Tegrado",
+        "JOB_POSITION": "Full Stack Developer",
+        "SHORT_DESCRIPTION": "I build applications to bridge technology and people. I get excited about developing applications using the latest technologies for performance and efficiency."
+    },
+    "SOCIAL_MEDIA_LINKS": {
+        "GITHUB_URL": "https://github.com/kennethtegrado",
+        "TWITTER_URL": "https://twitter.com/renztegrado",
+        "LINKEDIN_URL": "https://www.linkedin.com/in/kennethtegrado/"
+    },
+    "META_TAGS": {
+        "META_TITLE": "Kenneth Tegrado - Full Stack Developer Portfolio",
+        "META_DESCRIPTION": "Kenneth Tegrado is a Full Stack Developer with one year of experience building React JS and Node JS applications. Check out his portfolio to learn more about his career.",
+        "META_IMAGE_URL": "https://www.kennethtegrado.tech/seo/code.webp",
+        "META_WEBSITE_URL": "https://www.kennethtegrado.tech/",
+        "TWITTER_USERNAME": "@renztegrado"
+    }
+}
