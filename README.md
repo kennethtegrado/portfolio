@@ -1,4 +1,4 @@
-![GitHub contributors](https://img.shields.io/github/contributors/kennethtegrado/kennethtegrado-portfolio-nextjs?color=%23435fff&label=Contributors&logo=Github&style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/kennethtegrado/portfolio?color=%23435fff&label=Contributors&logo=Github&style=for-the-badge)
 ![Powered by Vercel](https://img.shields.io/badge/Powered%20by-Vercel-%23435fff?style=for-the-badge&logo=vercel)
 ![Built with NEXT JS](https://img.shields.io/badge/Built%20with-Next%20JS-%23435fff?style=for-the-badge&logo=next.js)
 ![TypeScript Portfolio](https://img.shields.io/badge/Built%20with-TypeScript-%23435fff?style=for-the-badge&logo=typescript)
