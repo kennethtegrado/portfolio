@@ -70,5 +70,5 @@ If you have a suggestion that would make this better, please fork the repo and c
 ## Author's Contact
 
 -   Kenneth Tegrado - [@kennethtegrado](https://www.linkedin.com/in/kennethtegrado/)
--   [Project Link](https://github.com/kennethtegrado/kennethtegrado-portfolio-nextjs)
+-   [Project Link](https://github.com/kennethtegrado/portfolio)
 -   [Official Link](https://www.kennethtegrado.tech/)
