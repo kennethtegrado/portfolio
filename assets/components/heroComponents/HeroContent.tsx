@@ -58,7 +58,7 @@ const HeroContent: FunctionComponent = () => {
 
                 <motion.a
                     className="button button__secondary"
-                    href={'https://www.kennethtegrado.tech/docs/resume.pdf'}
+                    href={'https://www.kennethtegrado.dev/docs/resume.pdf'}
                     target="_blank"
                     rel="noreferrer"
                     initial={{ opacity: 0, x: -15, translateY: 50 }}

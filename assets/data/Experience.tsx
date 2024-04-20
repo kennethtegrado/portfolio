@@ -1,5 +1,5 @@
-import type { ReactElement } from 'react';
-import React from 'react';
+import type { ReactElement } from "react";
+import React from "react";
 import {
     SiDjango,
     SiFirebase,
@@ -9,49 +9,66 @@ import {
     SiStyledcomponents,
     SiTailwindcss,
     SiTypescript,
-} from 'react-icons/si';
+    SiMongodb,
+} from "react-icons/si";
+
+import { FaVuejs, FaGithub, FaUbuntu } from "react-icons/fa";
 
 const EXPERIENCES: Array<Experience> = [
     {
-        company: 'TeachShare Philippines',
-        date: 'February - June 2022',
-        jobPosition: 'Full Stack Developer',
+        company: "DigitalCreatives",
+        date: "September 2022 - March 2024",
+        jobPosition: "Full-Stack Developer",
         jobPoints: [
-            'Implemented React Context to standardize the propagation of props from any component and optimized unnecessary re-renders of the application by 47% using a memoized distribution of states.',
-            'Administered the interface used in TypeScript for generating the responses from the API to increase the speed of backend development by 50%.',
-            'Developed more than 20 UI components from Figma to React.js using Tailwind CSS and reduced the total development time from 1 month to 2 weeks.',
-            'Remodeled 15 callback functions for authenticating user sign-up and log-in using ES6 asynchronous function to remove callback hell and create a readable code for six developers.',
-            'Migrated email function from a web service layer to the frontend using Email.js and shortened the number of functions implemented by the backend by 6%.',
-            "Upgraded HTML's native video player using TypeScript and CSS modules and added three additional functions to improve user experience.",
+            "Spearheaded the creation of a continuous deployment pipeline utilizing Git, GitHub Actions, and Linux Server for applications hosted on online repositories, ensuring efficient and automated deployment processes.",
+            "Delivered 19 localized versions of a client's main entry page within 3 weeks, enhancing SEO and user experience by allowing localization based on geolocation.",
+            "Orchestrated the development of a Full-Stack solution using Vue.js, Express.js, MongoDB, and Git, enabling businesses to efficiently monitor lead activity and drive growth.",
         ],
         technologies: [
-            { icon: <SiNextdotjs />, key: 'nextjs' },
-            { icon: <SiReact />, key: 'reactjs' },
-            { icon: <SiTypescript />, key: 'typescript' },
-            { icon: <SiFirebase />, key: 'firebase' },
-            { icon: <SiTailwindcss />, key: 'tailwindcss' },
+            { icon: <SiNextdotjs />, key: "nextjs" },
+            { icon: <SiReact />, key: "reactjs" },
+            { icon: <FaVuejs />, key: "vuejs" },
+            { icon: <SiMongodb />, key: "mongodb" },
+            { icon: <FaGithub />, key: "github" },
+            { icon: <FaUbuntu />, key: "ubuntu" },
         ],
-        key: 'teachshare-ph',
+        key: "digital-creatives",
     },
     {
-        company: 'Quicklink Philippines',
-        date: 'December 2021 - February 2022',
-        jobPosition: 'Software Engineering Intern',
+        company: "TeachShare Philippines",
+        date: "February - June 2022",
+        jobPosition: "Full-Stack Developer",
         jobPoints: [
-            'Spearheaded an end-to-end application development with three software engineers and finished the site in 2 months.',
-            'Supervised the migration of static assets served by the webserver to a frontend service layer using Next.js and significantly reduced the development time from 3 months to 1 month.',
-            'Devised an algorithm to throttle requests from the client-side to the Django REST API server using React.js packages and minimized the number of requests on search functions by 85%.',
-            'Oversaw the development of new UI components from Figma to React.js using Styled-Components and delivered more than 30 responsive and animated components in 1 month.',
-            'Installed state persistence on the merchant-side of the application to persist data after reload and diminished the total loading time from 3 seconds to less than 1 second.',
+            "Implemented React Context and optimized application re-renders by 47%, administered TypeScript interfaces for API responses, and developed 20+ UI components using Tailwind CSS, enhancing efficiency.",
+            "Remodeled callback functions for user authentication, migrated email functionality to the frontend, and upgraded HTML's video player, demonstrating proficiency in ES6 asynchronous functions, frontend-backend integration, and user experience enhancements.",
+            "Spearheaded frontend enhancements, including state management and UI development, significantly reducing development time and improving application performance while collaborating effectively with a multidisciplinary team of developers.",
         ],
         technologies: [
-            { icon: <SiNextdotjs />, key: 'nextjs' },
-            { icon: <SiReact />, key: 'reactjs' },
-            { icon: <SiJavascript />, key: 'javascript' },
-            { icon: <SiDjango />, key: 'Django' },
-            { icon: <SiStyledcomponents />, key: 'styled-components' },
+            { icon: <SiNextdotjs />, key: "nextjs" },
+            { icon: <SiReact />, key: "reactjs" },
+            { icon: <SiTypescript />, key: "typescript" },
+            { icon: <SiFirebase />, key: "firebase" },
+            { icon: <SiTailwindcss />, key: "tailwindcss" },
         ],
-        key: 'quicklink-ph',
+        key: "teachshare-ph",
+    },
+    {
+        company: "Quicklink Philippines",
+        date: "December 2021 - February 2022",
+        jobPosition: "Software Engineering Intern",
+        jobPoints: [
+            "Led a cross-functional team to develop a full-stack application within 2 months, utilizing Next.js, React.js, and Django, resulting in a successful site launch.",
+            "Implemented optimizations, including asset migration and client-side request throttling, reducing development time by two months and enhancing performance by 85%.",
+            "Spearheaded the creation of 30+ responsive UI components and introduced state persistence, reducing loading time from 3 seconds to under 1 second.",
+        ],
+        technologies: [
+            { icon: <SiNextdotjs />, key: "nextjs" },
+            { icon: <SiReact />, key: "reactjs" },
+            { icon: <SiJavascript />, key: "javascript" },
+            { icon: <SiDjango />, key: "Django" },
+            { icon: <SiStyledcomponents />, key: "styled-components" },
+        ],
+        key: "quicklink-ph",
     },
 ];
 

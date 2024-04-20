@@ -9,12 +9,15 @@ const DynamicAboutSection = dynamic(() => import('@sections/About'));
 // Experience section
 const DynamicExperienceSection = dynamic(() => import('@sections/Experience'));
 
+const DynamicAdditional = dynamic(() => import('@sections/Additional'));
+
 const HomePage: NextPage = () => {
     return (
         <>
             <DynamicHeroSection />
             <DynamicAboutSection />
             <DynamicExperienceSection />
+            <DynamicAdditional />
         </>
     );
 };

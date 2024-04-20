@@ -7,7 +7,8 @@ import { motion } from 'framer-motion';
 import styles from '@styles/sections/index/Hero.module.css';
 
 // Logo Import
-import { FaReact, FaNodeJs } from 'react-icons/fa';
+import {  FaPython } from 'react-icons/fa';
+import { SiTypescript } from 'react-icons/si';
 
 const FloatingIcons: FunctionComponent = () => {
     return (
@@ -26,7 +27,7 @@ const FloatingIcons: FunctionComponent = () => {
                     bottom: 30,
                 }}
             >
-                <FaReact className={styles['hero__icon--svg']} />
+                <SiTypescript className={styles['hero__icon--svg']} />
             </motion.div>
             <motion.div
                 className={`${styles['hero__icon']} ${styles['hero__icon--node']}`}
@@ -42,7 +43,7 @@ const FloatingIcons: FunctionComponent = () => {
                     bottom: 30,
                 }}
             >
-                <FaNodeJs className={styles['hero__icon--svg']} />
+                <FaPython className={styles['hero__icon--svg']} />
             </motion.div>
         </Fragment>
     );
