@@ -1,5 +1,5 @@
 import { ReactElement, Key } from 'react';
-import { GrLinkedin, GrTwitter } from 'react-icons/gr';
+import { GrLinkedin} from 'react-icons/gr';
 import { ImGithub } from 'react-icons/im';
 import DATA from '../../User.info.json';
 
@@ -15,12 +15,6 @@ const SOCIAL_LINKS: Array<SocialItem> = [
         link: DATA['SOCIAL_MEDIA_LINKS']['LINKEDIN_URL'],
         icon: <GrLinkedin />,
         id: 2,
-    },
-    {
-        socialMedia: 'Twitter',
-        link: DATA['SOCIAL_MEDIA_LINKS']['TWITTER_URL'],
-        icon: <GrTwitter />,
-        id: 3,
     },
 ];
 

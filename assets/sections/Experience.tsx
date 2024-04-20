@@ -60,7 +60,7 @@ const ExperienceSection: FunctionComponent = () => {
                                 }}
                                 className={
                                     activeExperience === index
-                                        ? styles.activeExperience
+                                        ? `${styles.activeExperience} text-primary`
                                         : ''
                                 }
                                 variants={experienceChildren}
